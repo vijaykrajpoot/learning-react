@@ -27,21 +27,17 @@ function BookList() {
       <Book bookImageUrl={firstBook.bookImageUrl} title={firstBook.title} author={firstBook.author}/> 
       <Book bookImageUrl={secondBook.bookImageUrl} title={secondBook.title} author={secondBook.author} />
       <Book bookImageUrl={thirdBook.bookImageUrl} title={thirdBook.title} author={thirdBook.author} /> 
-
-      
-      
     </section> 
   );
 }
-
+//const Book = ({ bookImageUrl,title,  author }) => {
 const Book = (book) => {
   const { bookImageUrl,title,author}=book
-  console.log(book)
   return (
     <article className='book'>
       <img src={ bookImageUrl} alt=""/>
-      <h1>{title}</h1>
-      <h4>{author}</h4>
+      <h1>{author}</h1>
+      <h4>{title}</h4>
     </article>
   
   // with book object name explicitly
