@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ABook = (props) => {
+const ABook = (props) => {
   const clickHandler = (e) => {
     alert('Clicked')
     console.log(e)
@@ -28,4 +28,4 @@ export const ABook = (props) => {
   )
 }
 
-//export default ABook
+export default ABook

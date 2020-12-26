@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import './index.css'
 import { books } from './books'
-import { ABook } from './ABook'
+import ABook from './ABook'
 import { greeting } from './testing/testing'
 
 function BookList() {
